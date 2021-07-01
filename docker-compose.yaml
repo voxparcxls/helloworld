@@ -1,9 +1,9 @@
 version: "3.7"
 
 services:
-    dockerflask:
+    dockerhelloworld:
         build:
             context: ./
         ports:
-            - 5000:5000
-        container_name: dockerflask
+            - 8999:80
+        container_name: dockerhelloworld
