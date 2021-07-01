@@ -1,0 +1,5 @@
+cython
+Flask==1.1.2
+numpy
+numexpr
+web.py
